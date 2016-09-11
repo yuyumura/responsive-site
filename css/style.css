@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/*Base
+-------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4f342a;
+  background-color: #f2e4d9; }
+
+.text-center {
+  text-align: center; }
+
+.baloo_tamma {
+  font-family: 'Baloo Tamma', cursive; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 3.2rem; }
+
+/*-----------------------------
+Base*/
+.flexible-images {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+@media (max-width: 768px) {
+  .flex-images {
+    background-image: url("img_heder_mobile.jpg"); } }
+.heder_text {
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto 0px auto; }
+
+@media (max-width: 768px) {
+  .content-box-common {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    -webkit-flex-direction: column;
+    flex-direction: column; } }
+.content-box-common {
+  max-width: 100%;
+  height: auto;
+  padding: 10px; }
+
+.content-box {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  background-color: #00c9b9;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-flex: 1;
+  flex: 1; }
+
+.content-title-box {
+  font-size: 35px;
+  max-width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  margin: 0px;
+  text-align: center;
+  background-color: #accd00; }
+
+.content-text-box {
+  font-size: 20px;
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 0px;
+  text-align: center; }
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex; }
+
+.footer-box {
+  width: auto;
+  height: 130px;
+  padding: 10px;
+  background-position: center center;
+  background-color: #eded8f; }
+
+.footer-text-box {
+  padding: 10px;
+  margin: 15px; }
+
+.footer-button-box {
+  padding: 10px;
+  margin: 10px; }
+
+.footer-button {
+  font-size: 20px;
+  width: 30%;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #a78ec3;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+a:link {
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
